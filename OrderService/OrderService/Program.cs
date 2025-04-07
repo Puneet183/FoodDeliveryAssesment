@@ -1,4 +1,6 @@
+using Microsoft.EntityFrameworkCore;
 using OrderService.Data;
+using OrderService.Interfaces;
 using OrderService.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);

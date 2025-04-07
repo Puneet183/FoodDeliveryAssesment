@@ -1,6 +1,6 @@
-﻿using OrderService.Interfaces;
-
-public interface IRabbitMQProducer
+﻿namespace OrderService.Interfaces
 {
-    void SendMessage(Order order);
+    public interface IRabbitMQProducer
+    {
+    }
 }
